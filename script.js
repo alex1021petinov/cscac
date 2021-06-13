@@ -35,12 +35,6 @@ function switchIC(){
     
 }
 
-function allred(){
-    document.body.style.backgroundColor = "red"
-}
-function allred1(){
-    document.body.style.backgroundColor = "white"
-}
 function calculate(){
     if(t1_A.value>0&&t1_B.value>0&&t1_angel.value<180&&t1_angel.value>0){
         output[0].innerText=Math.abs((t1_A.value*t1_B.value*Math.sin(t1_angel.value))).toFixed(2);
